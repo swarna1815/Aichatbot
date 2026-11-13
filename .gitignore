@@ -1,1 +1,51 @@
+# Environment variables and secrets
+
 .env
+
+.env.*
+
+**/.env
+
+**/.env.*
+
+ 
+
+# Allow safe example files
+
+!.env.example
+
+!**/.env.example
+
+ 
+
+# Node
+
+node_modules/
+
+dist/
+
+*.log
+
+ 
+
+# Python
+
+__pycache__/
+
+*.py[cod]
+
+.venv/
+
+venv/
+
+ 
+
+# IDE
+
+.vscode/
+
+.idea/
+
+
+
+
